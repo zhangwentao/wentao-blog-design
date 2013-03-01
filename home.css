@@ -8,6 +8,19 @@ p {
 	font-family: serif;
 }
 
+a {
+	text-decoration: none;
+}
+
+a:visited {
+	color: #000;
+}
+
+a:link:hover {
+	cursor: pointer;
+	color: #929292;
+}
+
 h1,h2,h3,h4,h5,h6 {
 	font-family: monospace,serif;
 }
@@ -19,7 +32,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .wentao-blog-container {
-	padding: 20px 0;
+	padding: 10px 0;
 	font-family: sans-serif;
 }
 
@@ -63,6 +76,7 @@ ul.abstract_list>li {
 .info {
 	float: left;
 	width: 70px;
+	padding-left: 5px;
 }
 
 .pub-time {
