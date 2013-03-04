@@ -15,16 +15,22 @@ p {
 
 /* anchor */
 a {
+	outline: none;
 	text-decoration: none;
 }
 
+a:link, 
 a:visited {
 	color: #000;
 }
 
 a:hover {
 	cursor: pointer;
-	color: #929292;
+	text-shadow: 1px 1px 2px #6d6d6d;
+}
+
+a:active {
+	text-shadow: 1px 1px 2px #688c5e;
 }
 
 .clearfix:after {
@@ -58,6 +64,7 @@ a:hover {
 
 .header-navi {
 	float: right;
+	font-size: 14px;
 }
 
 .header-navi li {
@@ -161,13 +168,14 @@ li.abstract-item {
 }
 
 .comment-time:before {
-	content: "post@";
+	content: "post@ ";
 }
 
 .comment-time {
 	float: right;
 	margin-right: 15px;
 	font-size: 11px;
+	color: #888;
 }
 
 .commenter-avatar img {
